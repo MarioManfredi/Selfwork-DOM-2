@@ -4,11 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selfwork DOM 2</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CSS Esterno -->
+    <link href="./style.css" rel="stylesheet">
+    <!-- Font esterno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+    <!-- Title -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <h1>Articolo</h1>
+            </div>
+        </div>
+    </header>
     
-
-
+    <!-- Section -->
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <article class="col-6 mt-3">
+                <div class="input-group">
+                    <input type="text" id="addTitle" class="form-control shadow-none text-center title" placeholder="Inserisci titolo">
+                </div>
+            </article>
+        </div>
+        <div class="row justify-content-center">
+            <article class="col-4 mt-4">
+                <div class="input-group">
+                    <textarea id="addText" class="form-control shadow-none text-center" placeholder="Contenuto dell'articolo"></textarea>
+                </div>
+            </article>
+        </div>
+        <div class="row justify-content-center">
+            <article class="col-12">
+                <button type="button" id="createBtn" class="btn btn-outline-dark btn-custom">Creare Articolo</button>
+            </article>
+        </div>
+    </section>
     
+    <!-- Article -->
+    <section class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <article id="contentWrapper" class="col-2 col-md-6 text-center">
+                <div class="card-custom">
+
+                </div>  
+            </article>
+        </div>
+    </section>
+    
+    
+    
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./main.js"></script>
 </body>
 </html>

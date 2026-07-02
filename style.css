@@ -1,0 +1,43 @@
+
+/* Font */
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: #EEE8D2;
+}
+
+/* variabili */
+:root {
+  --bg-body: black;
+  --bg1-body: white;
+}
+
+.title{
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    text-transform: none;
+}
+
+/* Buttons */
+.btn-custom{
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+  background-color: var(--bg1-body);
+}
+
+/* Card */
+
+.card-custom{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(204, 10, 10, 0.558);
+  background-color: var(--bg1-body); 
+}
+
